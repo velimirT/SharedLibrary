@@ -26,7 +26,7 @@ const initialState = {
       }
     ],
     libraries_slider_shown: false,
-    chosen_library: null,
+    chosen_library: 0,
   }
 
 const logger = store => next => action => {

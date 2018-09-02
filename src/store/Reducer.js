@@ -14,7 +14,7 @@ export const MainReducer = (state = {}, action) => {
 				{
 					...state, 
 					chosen_library: action.id,
-					libraries_slider_shown: false
+					libraries_slider_shown: true
 				}
 			)
 		case C.RESET_LIBRARY:
