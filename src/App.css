@@ -22,6 +22,35 @@
   font-size: large;
 }
 
+/* LibrariesSlider component*/
+.library-slider {
+  background-color: white;
+  border-right: 1px solid black;
+  box-sizing: border-box;
+  min-height: 100vh;
+  position: absolute;
+  left: -25%;
+  padding: 0 16px;
+  top: 0;
+  transition: left ease-in-out .6s;
+  width: 25%;
+}
+
+.library-slider-shown {
+  left: 0;
+}
+
+.library-slider__img {
+  display: block;
+  height: auto;
+  margin: 16px auto;
+  width: 90%;
+}
+
+.library-slider__address {
+  font-style: normal;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

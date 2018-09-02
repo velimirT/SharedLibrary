@@ -21,7 +21,8 @@ export const MainReducer = (state = {}, action) => {
 			return (
 				{
 					...state, 
-					chosen_library: null
+					chosen_library: 0,
+					libraries_slider_shown: true
 				}
 			)
 		default: 

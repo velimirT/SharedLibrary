@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { ListWrap } from './components/Containers';
+import { ListWrap, LibrariesSliderWrap } from './components/Containers';
 
 class App extends Component {
   render() {
@@ -11,6 +11,7 @@ class App extends Component {
           <h1 className="App-title">Shared Library</h1>
         </header>
         <main>
+          <LibrariesSliderWrap />
           <p className="App-intro">
             Click one of the libraries in the list to get started!
           </p>
