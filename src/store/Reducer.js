@@ -14,14 +14,15 @@ export const MainReducer = (state = {}, action) => {
 				{
 					...state, 
 					chosen_library: action.id,
-					libraries_slider_shown: true
+					libraries_slider_shown: false
 				}
 			)
 		case C.RESET_LIBRARY:
 			return (
 				{
 					...state, 
-					chosen_library: null
+					chosen_library: 0,
+					libraries_slider_shown: true
 				}
 			)
 		default: 
